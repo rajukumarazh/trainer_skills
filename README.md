@@ -1,1 +1,1 @@
-# skillstrainer_admin_client
+live url is skilltrainer.in
