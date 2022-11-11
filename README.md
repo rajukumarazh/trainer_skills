@@ -1,1 +1,2 @@
-live url is skilltrainer.in
+live url is
+https://www.skillstrainer.in/
