@@ -1,0 +1,86 @@
+{
+  "name": "skillstrainer-admin-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "@craco/craco": "^6.3.0",
+    "@emotion/react": "^11.7.1",
+    "@headlessui/react": "^1.4.0",
+    "@heroicons/react": "^1.0.3",
+    "@progress/kendo-react-pdf": "^5.1.0",
+    "@react-pdf/renderer": "^2.1.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "bootstrap": "^5.0.2",
+    "boxicons": "^2.0.9",
+    "craco": "^0.0.3",
+    "dateformat": "^5.0.2",
+    "graphql": "^15.5.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "papaparse": "^5.3.1",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.0.4",
+    "react-csv": "^2.2.2",
+    "react-data-table-component": "^7.4.5",
+    "react-datepicker": "^4.5.0",
+    "react-datetime-picker": "^3.4.3",
+    "react-dnd": "^15.1.1",
+    "react-dnd-html5-backend": "^15.1.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.5.3",
+    "react-fileupload-progress": "^0.5.0",
+    "react-icons": "^4.3.1",
+    "react-quiz-component": "^0.3.9",
+    "react-redux": "^7.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "react-time-picker": "^4.4.4",
+    "react-toastify": "^8.2.0",
+    "react-x-editable": "^0.0.10-beta",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "sty": "^0.6.1",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "staging": "REACT_APP_BUILD_ENV=staging craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
